@@ -10,8 +10,9 @@ code
 python preprocess.py--To create the heterogeneous disease-miRNA-lncRNA (DML) information network
 
 
-python HOPEXGB.py--To predict the associations of miRNAs/lncRNAs with diseases by HOPEXGB, run
+python HOPEXGB.py--To predict the associations of miRNAs/lncRNAs with diseases
 
 Requirements
 HOPEXGB is tested to work under Python 3.8.0+
+
 The required dependencies for HOPEXGB are sklearn, numpy, pandas, scipy, itertools, xgboost and time.
