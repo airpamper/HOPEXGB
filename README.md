@@ -2,15 +2,16 @@
 This is a public code for predicting the associations of miRNAs and lncRNAs with diseases
 
 'data' directory
+
 Contain the associations between lncRNAs and diseases, the associations between miRNAs and diseases, the interactions between lncRNAs and miRNAs, the heterogeneous network DML.
 
 code
+
 To create the heterogeneous disease-miRNA-lncRNA (DML) information network
 python preprocess.py
 
-main.py
 To predict the associations of miRNAs/lncRNAs with diseases by HOPEXGB, run
-python main.py
+python HOPEXGB.py
 
 Requirements
 HOPEXGB is tested to work under Python 3.8.0+
