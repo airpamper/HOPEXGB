@@ -7,11 +7,10 @@ Contain the associations between lncRNAs and diseases, the associations between 
 
 code
 
-To create the heterogeneous disease-miRNA-lncRNA (DML) information network
-python preprocess.py
+python preprocess.py--To create the heterogeneous disease-miRNA-lncRNA (DML) information network
 
-To predict the associations of miRNAs/lncRNAs with diseases by HOPEXGB, run
-python HOPEXGB.py
+
+python HOPEXGB.py--To predict the associations of miRNAs/lncRNAs with diseases by HOPEXGB, run
 
 Requirements
 HOPEXGB is tested to work under Python 3.8.0+
